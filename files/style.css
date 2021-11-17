@@ -347,7 +347,7 @@ print {
 	display: inline-block;
 	text-transform: uppercase;
 	font-size: 0.875rem;
-	letter-spacing: 0.1em;
+	carta-spacing: 0.1em;
 	line-height: 1.25;
 	padding: 1rem 2rem;
 	margin: 0.25rem 0;
@@ -668,7 +668,7 @@ body {
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #4e4c57;
-	letter-spacing: 0.08em;
+	carta-spacing: 0.08em;
 	margin-bottom: 0.5rem
 }
 
@@ -755,7 +755,7 @@ body {
 	margin-right: auto
 }
 
-.-home-letter {
+.-home-carta {
 	width: 100%;
 	max-width: 28rem;
 	margin: auto
@@ -765,13 +765,13 @@ body {
 	.-marketing {
 		margin-top: 3rem
 	}
-	.-home-letter {
+	.-home-carta {
 		margin-top: 4rem
 	}
 }
 
 @media screen and (min-width: 45em) {
-	.-home-letter {
+	.-home-carta {
 		margin-top: 5rem
 	}
 }
@@ -781,7 +781,7 @@ body {
 		width: auto;
 		margin-right: 32rem
 	}
-	.-home-letter {
+	.-home-carta {
 		position: fixed;
 		margin-top: 3.5rem;
 		width: 28rem;
@@ -791,7 +791,7 @@ body {
 }
 
 @media screen and (min-width: 60em) and (max-height: 38em) {
-	.-home-letter {
+	.-home-carta {
 		position: absolute !important
 	}
 }
@@ -802,7 +802,7 @@ body {
 		margin-right: 42rem;
 		margin-left: 2rem
 	}
-	.-home-letter {
+	.-home-carta {
 		position: fixed;
 		margin-top: 3.5rem;
 		width: 35rem;
@@ -865,7 +865,7 @@ body {
 	margin-right: auto
 }
 
-.-home-letter {
+.-home-carta {
 	width: 100%;
 	max-width: 28rem;
 	margin: auto
@@ -875,13 +875,13 @@ body {
 	.-marketing {
 		margin-top: 3rem
 	}
-	.-home-letter {
+	.-home-carta {
 		margin-top: 4rem
 	}
 }
 
 @media screen and (min-width: 45em) {
-	.-home-letter {
+	.-home-carta {
 		margin-top: 5rem
 	}
 }
@@ -891,7 +891,7 @@ body {
 		margin-right: 32rem;
 		width: auto
 	}
-	.-home-letter {
+	.-home-carta {
 		margin-top: 3.5rem;
 		position: fixed;
 		right: 2rem;
@@ -901,7 +901,7 @@ body {
 }
 
 @media screen and (min-width: 60em) and (max-height: 38em) {
-	.-home-letter {
+	.-home-carta {
 		position: absolute !important
 	}
 }
@@ -912,7 +912,7 @@ body {
 		margin-right: 42rem;
 		margin-left: 2rem
 	}
-	.-home-letter {
+	.-home-carta {
 		margin-top: 3.5rem;
 		max-width: 35rem;
 		position: fixed;
@@ -1032,8 +1032,7 @@ body {
 	font-size: .875rem;
 	text-transform: uppercase;
 	line-height: 1.25;
-	letter-spacing: .1em;
+	carta-spacing: .1em;
 	font-weight: 400;
 	text-transform: uppercase
 }
-
