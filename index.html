@@ -3,66 +3,10 @@
   display: block;
 }
 
-pmdofuturo-editor:empty:not(:focus)::before {
-  content: attr(placeholder);
-  color: graytext;
-  cursor: text;
-}
-
-pmdofuturo-editor a[contenteditable=false] {
-  cursor: text;
-}
-
-pmdofuturo-editor img {
-  max-width: 100%;
-  height: auto;
-}
-
-pmdofuturo-editor [data-pmdofuturo-attachment] figcaption textarea {
-  resize: none;
-}
-
-pmdofuturo-editor [data-pmdofuturo-attachment] figcaption textarea.pmdofuturo-autoresize-clone {
-  position: absolute;
-  left: -9999px;
-  max-height: 0px;
-}
 
 pmdofuturo-editor [data-pmdofuturo-attachment] figcaption[data-pmdofuturo-placeholder]:empty::before {
   content: attr(data-pmdofuturo-placeholder);
   color: graytext;
-}
-
-pmdofuturo-editor [data-pmdofuturo-cursor-target] {
-  display: inline-block !important;
-  width: 1px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  border: none !important;
-}
-
-pmdofuturo-editor [data-pmdofuturo-cursor-target=left] {
-  vertical-align: top !important;
-  margin-left: -1px !important;
-}
-
-pmdofuturo-editor [data-pmdofuturo-cursor-target=right] {
-  vertical-align: bottom !important;
-  margin-right: -1px !important;
-}</style><style type="text/css" data-tag-name="pmdofuturo-toolbar">pmdofuturo-toolbar {
-  display: block;
-}
-
-pmdofuturo-toolbar {
-  white-space: nowrap;
-}
-
-pmdofuturo-toolbar [data-pmdofuturo-dialog] {
-  display: none;
-}
-
-pmdofuturo-toolbar [data-pmdofuturo-dialog][data-pmdofuturo-active] {
-  display: block;
 }
 
 pmdofuturo-toolbar [data-pmdofuturo-dialog] [data-pmdofuturo-validate]:invalid {
@@ -235,109 +179,6 @@ pmdofuturo-toolbar [data-pmdofuturo-dialog] [data-pmdofuturo-validate]:invalid {
     <input type="hidden" name="letter[send_date_type]" id="letter_send_date_type">
     <div class="control dn" id="date-picker">
   <label class="label" for="letter_send_at">Deliver on</label>
-  <div class="select">
-    <select id="letter_send_date_2i" name="letter[send_date(2i)]" class="ttc">
-<option value="1">January</option>
-<option value="2">February</option>
-<option value="3">March</option>
-<option value="4">April</option>
-<option value="5">May</option>
-<option value="6">June</option>
-<option value="7">July</option>
-<option value="8">August</option>
-<option value="9">September</option>
-<option value="10">October</option>
-<option value="11" selected="selected">November</option>
-<option value="12">December</option>
-</select>
-</div><div class="select ml1"><select id="letter_send_date_3i" name="letter[send_date(3i)]" class="ttc">
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-<option value="6">6</option>
-<option value="7">7</option>
-<option value="8">8</option>
-<option value="9">9</option>
-<option value="10">10</option>
-<option value="11">11</option>
-<option value="12">12</option>
-<option value="13">13</option>
-<option value="14">14</option>
-<option value="15">15</option>
-<option value="16">16</option>
-<option value="17" selected="selected">17</option>
-<option value="18">18</option>
-<option value="19">19</option>
-<option value="20">20</option>
-<option value="21">21</option>
-<option value="22">22</option>
-<option value="23">23</option>
-<option value="24">24</option>
-<option value="25">25</option>
-<option value="26">26</option>
-<option value="27">27</option>
-<option value="28">28</option>
-<option value="29">29</option>
-<option value="30">30</option>
-<option value="31">31</option>
-</select>
-</div><div class="select ml1"><select id="letter_send_date_1i" name="letter[send_date(1i)]" class="ttc">
-<option value="2021">2021</option>
-<option value="2022" selected="selected">2022</option>
-<option value="2023">2023</option>
-<option value="2024">2024</option>
-<option value="2025">2025</option>
-<option value="2026">2026</option>
-<option value="2027">2027</option>
-<option value="2028">2028</option>
-<option value="2029">2029</option>
-<option value="2030">2030</option>
-<option value="2031">2031</option>
-<option value="2032">2032</option>
-<option value="2033">2033</option>
-<option value="2034">2034</option>
-<option value="2035">2035</option>
-<option value="2036">2036</option>
-<option value="2037">2037</option>
-<option value="2038">2038</option>
-<option value="2039">2039</option>
-<option value="2040">2040</option>
-<option value="2041">2041</option>
-<option value="2042">2042</option>
-<option value="2043">2043</option>
-<option value="2044">2044</option>
-<option value="2045">2045</option>
-<option value="2046">2046</option>
-<option value="2047">2047</option>
-<option value="2048">2048</option>
-<option value="2049">2049</option>
-<option value="2050">2050</option>
-<option value="2051">2051</option>
-<option value="2052">2052</option>
-<option value="2053">2053</option>
-<option value="2054">2054</option>
-<option value="2055">2055</option>
-<option value="2056">2056</option>
-<option value="2057">2057</option>
-<option value="2058">2058</option>
-<option value="2059">2059</option>
-<option value="2060">2060</option>
-<option value="2061">2061</option>
-<option value="2062">2062</option>
-<option value="2063">2063</option>
-<option value="2064">2064</option>
-<option value="2065">2065</option>
-<option value="2066">2066</option>
-<option value="2067">2067</option>
-<option value="2068">2068</option>
-<option value="2069">2069</option>
-<option value="2070">2070</option>
-<option value="2071">2071</option>
-</select>
-
-  </div>
   <div class="db di-ns nowrap">
     </a>
   </div>
@@ -415,14 +256,13 @@ pmdofuturo-toolbar [data-pmdofuturo-dialog] [data-pmdofuturo-validate]:invalid {
 
 </section>
 
-<!--FOOTER-->
 <footer class="-marketing -footer-blue">
 
     <ul class="column is-6">
-      <li><a href="https://www.pmdofuturo.com.br/letters/public" rel="ugc">Read Public Letters</a></li>
+      <li><a href="https://www.pmdofuturo.com.br/letters/public" >Leia as cartas públicas</a></li>
       <li><a href="https://www.pmdofuturo.com.br/what">FAQs</a></li>
-      <li><a href="https://www.pmdofuturo.com.br/pages/tos">Terms of Use</a>
-      </li><li><a href="https://www.pmdofuturo.com.br/pages/privacy-policy">Privacy Policy</a>
+      <li><a href="https://www.pmdofuturo.com.br/pages/tos">Termos de uso</a>
+      </li><li><a href="https://www.pmdofuturo.com.br/pages/privacy-policy">Política de privacidade</a>
     </ul>
     
 
